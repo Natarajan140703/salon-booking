@@ -1,0 +1,171 @@
+/* App.css */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #dbaa78;
+  border-radius: 10px;
+  background-image: url()
+}
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000000;
+  
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+
+input[type="text"],
+input[type="password"] {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #080000;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+
+.error-message {
+  color: #f44336;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+button[type="submit"] {
+  width: 375px;
+  padding: 12px;
+  background-color: #2474c9;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: #2026e3;
+}
+
+
+body{
+  background-image: url('https://cdn.tapetender70er.de/media/image/2a/97/63/Tapete-Friseur.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.contain {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #cc8d44;
+  border-radius: 10px;
+}
+
+
+.contain h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+
+.formgroup {
+  margin-bottom: 15px;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #080000;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.error-message {
+  color: #f44336;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+button[type="submit"] {
+  width: 375px;
+  padding: 12px;
+  background-color: #2474c9;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+button[type="submit"]:hover {
+  background-color: #2026e3;
+}
+
+
+header {
+  background-color:transparent;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+
+header nav ul {
+  list-style: none;
+  padding: 100;
+}
+
+
+header nav ul li {
+  display: inline;
+  margin-left : 80%;
+}
+
+
+header nav ul li:last-child {
+  margin-left: 50px;
+}
+
+
+header nav ul li a {
+  text-decoration: dotted;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 1s;
+}
+
+
+header nav ul li a:hover {
+  color: #f84141;
+}
+
+
+
