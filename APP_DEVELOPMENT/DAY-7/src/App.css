@@ -1,0 +1,236 @@
+.container {
+  max-width: 400px;
+  margin-left: 550px;
+  margin-top: 150px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #ffffff00;
+  opacity: 0.8;
+}
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #000000;
+  
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #080000;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.error-message {
+  color: #000200;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  width: 375px;
+  padding: 12px;
+  background-color: #9ddb39;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #1b7115;
+}
+
+
+body{
+  background-color: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image:url('https://img.freepik.com/free-photo/beauty-blogger-producing-makeup-tutorial_53876-137563.jpg?w=1060&t=st=1695364427~exp=1695365027~hmac=c523086039e052bd8db67e6c4af302ad147a4a1bf6ce3be3c6589c10335fda87');
+}
+
+.contain {
+  max-width: 400px;
+  padding: 50px;
+  margin-left: 500px;
+  margin-top: 60px;
+  background-color: #f7f7f700;
+  border-radius: 10px;
+  background-color: #ffffff00;
+  opacity: 0.8;
+}
+
+.contain h2 {
+  font-size: 24px;
+  margin-bottom: 20px
+}
+
+.formgroup {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid #080000;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  width: 375px;
+  padding: 12px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #000000;
+}
+
+header {
+  background-color:transparent;
+  color: #000000;
+  padding: 10px 0;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+header nav ul {
+  list-style: none;
+  padding: 100;
+}
+
+header nav ul li {
+  display: inline;
+  margin-left : 80%;
+}
+
+header nav ul li:last-child {
+  margin-left: 50px;
+}
+
+header nav ul li a {
+  text-decoration: dotted;
+  color: #57e200;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.8s;
+}
+
+header nav ul li a:hover {
+  color: #4ad414;
+}
+
+
+.typewriter h1 {
+  color: #50ac00;
+  font-family: monospace;
+  overflow: hidden; 
+  border-right: .15em solid rgb(55, 253, 48); 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 10s steps(30,end),
+    blink-caret 10s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:transparent}
+}
+
+.dropdown-menu {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* background-color: #f9f9f9; */
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-left: 2px;
+  margin-right: 100%;
+}
+
+.main-menu-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.main-menu-button:focus {
+  outline: none;
+}
+
+/* Add this to your App.css file */
+.contact-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.contact-container h2 {
+  margin-bottom: 15px;
+}
+
+.contact-container p {
+  margin-bottom: 10px;
+}
+
+.contact-container p strong {
+  font-weight: bold;
+}
